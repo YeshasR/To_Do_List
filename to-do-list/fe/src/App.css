@@ -1,0 +1,73 @@
+div {
+  text-align: center;
+
+}
+
+body {
+  background-color: rgb(247, 128, 98);
+  color: rgb(238, 237, 237);
+  font-size: larger;
+}
+
+h1 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+ul {
+  list-style-type: none;
+  color: black;
+  padding: 0;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+li {
+  margin-bottom: 1rem;
+  border-radius: 0.3rem;
+  background-color: whitesmoke;
+  font-size: larger;
+}
+
+form {
+  width: 100%;
+}
+
+label,
+input,
+button {
+  height: 2rem;
+}
+
+input {
+  width: 60%;
+  font-size: large;
+}
+
+label {
+  background-color: honeydew;
+  color: black;
+  padding: 0.39rem;
+  font-weight: 600;
+}
+
+button {
+  background-color: green;
+  color: white;
+  padding: 0.5rem;
+  border: none;
+  font-size: large;
+  padding: 0.4rem;
+}
+
+.deletebtn{
+  background-color: rgb(125, 196, 32);
+  color: rgb(255, 255, 255);
+  float:right;
+  border-radius: 10%;
+}
+/* this is to make the the text in the task get wraped and goes to next line instead of going out of the container*/
+/*.task-description {
+  word-wrap: break-word;
+  white-space: normal;
+}*/
+
